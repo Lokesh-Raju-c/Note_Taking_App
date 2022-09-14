@@ -1,0 +1,68 @@
+#page-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#form-container {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    background-color: #fff;
+}
+
+.note {
+    width: 100%;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    background-color: rgb(236, 209, 171);
+    float: left;
+}
+
+.note-title {
+    float: left;
+    font-weight: bold;
+}
+
+.note-delete-button {
+    float: right;
+    color: red;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.note-text {
+    float: left;
+    clear: both;
+}
+
+textarea {
+    width: 100%;
+    resize: vertical;
+    padding: 15px;
+    margin: 15px 0px;
+    border-radius: 15px;
+    border: 0px;
+    box-shadow: 4px 4px 10px rgba(0,0,0,0.06);
+    height:150px;
+    white-space: pre-wrap;
+
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+button {
+    appearance:none;
+    -webkit-appearance:none;
+
+    padding:10px;
+    border:none;
+    background-color:#e98317;
+    color:rgb(255, 255, 255);
+    font-weight:600;
+    border-radius:5px;
+    width:100%;
+    cursor: pointer;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Note Taking App</title>
+</head>
+<body>
+    <div id="page-container">
+        <div class="title-container">
+            <h1>Note Taking App</h1>
+        </div>
+        <div id="form-container">
+            <form id="note-form">
+                <label for="note-textarea">Begin your Notes on Digital Paper !</label>
+                <textarea id="note-textarea" required></textarea>
+                <button id="create-note-button">Create Note</button>
+            </form>
+        </div>
+        <div id="notes-container">
+            <div id="notes-list">
+                <div id="empty-note" style="float: left;" class="note">
+                    <div>
+                        <p class="note-title">Ahh! No notes created yet!</p>
+                    </div>
+                    <div>
+                        <p class="note-text">Create your first note above.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
